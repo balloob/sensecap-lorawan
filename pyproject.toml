@@ -1,0 +1,51 @@
+[project]
+name = "sensecap-lorawan"
+version = "0.0.0"
+description = "SenseCAP LoRaWAN device models and command-line reader"
+readme = "README.md"
+license = "Apache-2.0"
+authors = [{ name = "Paulus Schoutsen", email = "balloob@gmail.com" }]
+requires-python = ">=3.12"
+dependencies = ["lorawan-connection>=0.14.0,<0.15"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Framework :: AsyncIO",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Home Automation",
+    "Typing :: Typed",
+]
+
+[project.optional-dependencies]
+chirpstack = ["lorawan-connection[chirpstack]>=0.14.0,<0.15"]
+tts = ["lorawan-connection[tts]>=0.14.0,<0.15"]
+
+[project.scripts]
+sensecap-lorawan = "sensecap_lorawan.__main__:main"
+
+[project.urls]
+Repository = "https://github.com/balloobbot/sensecap-lorawan"
+Issues = "https://github.com/balloobbot/sensecap-lorawan/issues"
+
+[build-system]
+requires = ["uv_build>=0.8.4,<0.9.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = ["pytest>=9", "pytest-asyncio>=1", "pytest-cov>=6", "ruff>=0.11", "mypy>=1.19"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+files = ["src"]
