@@ -15,7 +15,8 @@ Tests use synthetic descriptors with the official model identities.
 JavaScript decoders at commit
 [`d0a234205fb9574dd03abd49561b60c243c0d1e3`](https://github.com/Seeed-Solution/SenseCAP-Decoder/tree/d0a234205fb9574dd03abd49561b60c243c0d1e3).
 These are generated protocol examples, not physical-device captures. The original
-JavaScript is not bundled or used at runtime. Tests normalize numeric strings,
+JavaScript is not bundled or used at runtime. The fixture generator fixes the
+reference clock so regenerating the data produces the same output. Tests normalize numeric strings,
 event IDs, positioning status codes, and MAC address casing before comparison.
 
 With Node.js installed, regenerate them from that source revision:
