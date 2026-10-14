@@ -1,0 +1,6055 @@
+[
+  {
+    "family": "S210X",
+    "payload": "010110f6d7ffff0000",
+    "name": "4097",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "010110F6D7FFFF0000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4097,
+            "measurementValue": -10.25
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "S210X",
+    "payload": "01021088f400000000",
+    "name": "4098",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "01021088F400000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4098,
+            "measurementValue": 62.6
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "S210X",
+    "payload": "010310a08601000000",
+    "name": "4099",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "010310A08601000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4099,
+            "measurementValue": 100
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "S210X",
+    "payload": "010410d0dd06000000",
+    "name": "4100",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "010410D0DD06000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4100,
+            "measurementValue": 450
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "S210X",
+    "payload": "01051020b709060000",
+    "name": "4101",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "01051020B709060000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4101,
+            "measurementValue": 101300
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "S210X",
+    "payload": "010610cc5b00000000",
+    "name": "4102",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "010610CC5B00000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4102,
+            "measurementValue": 23.5
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "S210X",
+    "payload": "01071018c400000000",
+    "name": "4103",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "01071018C400000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4103,
+            "measurementValue": 50.2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "S210X",
+    "payload": "010a10201c00000000",
+    "name": "4106",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "010A10201C00000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4106,
+            "measurementValue": 7.2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "S210X",
+    "payload": "010c10f00a00000000",
+    "name": "4108",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "010C10F00A00000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4108,
+            "measurementValue": 2.8
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "S210X",
+    "payload": "014f10f20300000000",
+    "name": "4175",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "014F10F20300000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4175,
+            "measurementValue": 1.01
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "S210X",
+    "payload": "015410020800000000",
+    "name": "4180",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "015410020800000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4180,
+            "measurementValue": 2.05
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "S210X",
+    "payload": "0000000101000100070064003c00012001000000002890",
+    "name": "metadata",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "0000000101000100070064003C00012001000000002890",
+        "messages": [
+          {
+            "type": "upload_version",
+            "hardwareVersion": "1.0",
+            "softwareVersion": "1.1"
+          },
+          {
+            "type": "upload_battery",
+            "battery": 100
+          },
+          {
+            "type": "upload_interval",
+            "interval": 3600
+          },
+          {
+            "type": "report_remove_sensor",
+            "channel": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "A1101",
+    "payload": "010110f6d7ffff0000",
+    "name": "4097",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "010110F6D7FFFF0000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4097,
+            "measurementValue": -10.25
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "A1101",
+    "payload": "01021088f400000000",
+    "name": "4098",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "01021088F400000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4098,
+            "measurementValue": 62.6
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "A1101",
+    "payload": "010310a08601000000",
+    "name": "4099",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "010310A08601000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4099,
+            "measurementValue": 100
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "A1101",
+    "payload": "010410d0dd06000000",
+    "name": "4100",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "010410D0DD06000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4100,
+            "measurementValue": 450
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "A1101",
+    "payload": "01051020b709060000",
+    "name": "4101",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "01051020B709060000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4101,
+            "measurementValue": 101300
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "A1101",
+    "payload": "010610cc5b00000000",
+    "name": "4102",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "010610CC5B00000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4102,
+            "measurementValue": 23.5
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "A1101",
+    "payload": "01071018c400000000",
+    "name": "4103",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "01071018C400000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4103,
+            "measurementValue": 50.2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "A1101",
+    "payload": "010a10201c00000000",
+    "name": "4106",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "010A10201C00000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4106,
+            "measurementValue": 7.2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "A1101",
+    "payload": "010c10f00a00000000",
+    "name": "4108",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "010C10F00A00000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4108,
+            "measurementValue": 2.8
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "A1101",
+    "payload": "014f10f20300000000",
+    "name": "4175",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "014F10F20300000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4175,
+            "measurementValue": 1.01
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "A1101",
+    "payload": "015410020800000000",
+    "name": "4180",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "015410020800000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4180,
+            "measurementValue": 2.05
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "A1101",
+    "payload": "0000000101000100070064003c00012001000000002890",
+    "name": "metadata",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "0000000101000100070064003C00012001000000002890",
+        "messages": [
+          {
+            "type": "upload_version",
+            "hardwareVersion": "1.0",
+            "softwareVersion": "1.1"
+          },
+          {
+            "type": "upload_battery",
+            "battery": 100
+          },
+          {
+            "type": "upload_interval",
+            "interval": 3600
+          },
+          {
+            "type": "report_remove_sensor",
+            "channel": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "Gen1",
+    "payload": "010110f6d7ffff0000",
+    "name": "4097",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "010110F6D7FFFF0000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4097,
+            "measurementValue": -10.25
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "Gen1",
+    "payload": "01021088f400000000",
+    "name": "4098",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "01021088F400000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4098,
+            "measurementValue": 62.6
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "Gen1",
+    "payload": "010310a08601000000",
+    "name": "4099",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "010310A08601000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4099,
+            "measurementValue": 100
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "Gen1",
+    "payload": "010410d0dd06000000",
+    "name": "4100",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "010410D0DD06000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4100,
+            "measurementValue": 450
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "Gen1",
+    "payload": "01051020b709060000",
+    "name": "4101",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "01051020B709060000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4101,
+            "measurementValue": 101300
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "Gen1",
+    "payload": "010610cc5b00000000",
+    "name": "4102",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "010610CC5B00000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4102,
+            "measurementValue": 23.5
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "Gen1",
+    "payload": "01071018c400000000",
+    "name": "4103",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "01071018C400000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4103,
+            "measurementValue": 50.2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "Gen1",
+    "payload": "010a10201c00000000",
+    "name": "4106",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "010A10201C00000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4106,
+            "measurementValue": 7.2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "Gen1",
+    "payload": "010c10f00a00000000",
+    "name": "4108",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "010C10F00A00000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4108,
+            "measurementValue": 2.8
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "Gen1",
+    "payload": "014f10f20300000000",
+    "name": "4175",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "014F10F20300000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4175,
+            "measurementValue": 1.01
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "Gen1",
+    "payload": "015410020800000000",
+    "name": "4180",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "015410020800000000",
+        "messages": [
+          {
+            "type": "report_telemetry",
+            "measurementId": 4180,
+            "measurementValue": 2.05
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "Gen1",
+    "payload": "0000000101000100070064003c00012001000000002890",
+    "name": "metadata",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "0000000101000100070064003C00012001000000002890",
+        "messages": [
+          {
+            "type": "upload_version",
+            "hardwareVersion": "1.0",
+            "softwareVersion": "1.1"
+          },
+          {
+            "type": "upload_battery",
+            "battery": 100
+          },
+          {
+            "type": "upload_interval",
+            "interval": 3600
+          },
+          {
+            "type": "report_remove_sensor",
+            "channel": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "0101010101010101010101",
+    "name": "01",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "0101010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 25.7,
+              "measurementId": "4097",
+              "type": "Air Temperature"
+            },
+            {
+              "measurementValue": 1,
+              "measurementId": "4098",
+              "type": "Air Humidity"
+            },
+            {
+              "measurementValue": 16843009,
+              "measurementId": "4099",
+              "type": "Light Intensity"
+            },
+            {
+              "measurementValue": 0.1,
+              "measurementId": "4190",
+              "type": "UV Index"
+            },
+            {
+              "measurementValue": 25.7,
+              "measurementId": "4105",
+              "type": "Wind Speed"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "2001010101010101010101",
+    "name": "20",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "2001010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4175
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4176
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4177
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4178
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4179
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "2101010101010101010101",
+    "name": "21",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "2101010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4180,
+              "type": "AI Detection 0"
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4181,
+              "type": "AI Detection 4"
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4182,
+              "type": "AI Detection 8"
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4183,
+              "type": "AI Detection 12"
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4184,
+              "type": "AI Detection 16"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "3012010101010101010101",
+    "name": "30",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "3012010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 16843.009,
+              "measurementId": 1,
+              "type": "Measurement"
+            },
+            {
+              "measurementValue": 16843.009,
+              "measurementId": 2,
+              "type": "Measurement"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "3112010101010101010101",
+    "name": "31",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "3112010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 16843.009,
+              "measurementId": 1,
+              "type": "Measurement"
+            },
+            {
+              "measurementValue": 16843.009,
+              "measurementId": 2,
+              "type": "Measurement"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "3312010101010101010101",
+    "name": "33",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "3312010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 16843.009,
+              "measurementId": 1,
+              "type": "Measurement"
+            },
+            {
+              "measurementValue": 16843.009,
+              "measurementId": 2,
+              "type": "Measurement"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "4001010101010101010101",
+    "name": "40",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4001010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 257,
+              "measurementId": "4193",
+              "type": "Light Intensity"
+            },
+            {
+              "measurementValue": 257,
+              "measurementId": "4192",
+              "type": "Sound Intensity"
+            },
+            {
+              "measurementValue": 2.57,
+              "measurementId": "4150",
+              "type": "AccelerometerX"
+            },
+            {
+              "measurementValue": 2.57,
+              "measurementId": "4151",
+              "type": "AccelerometerY"
+            },
+            {
+              "measurementValue": 2.57,
+              "measurementId": "4152",
+              "type": "AccelerometerZ"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "4101010101010101010101",
+    "name": "41",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4101010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 257,
+              "measurementId": "4193",
+              "type": "Light Intensity"
+            },
+            {
+              "measurementValue": 257,
+              "measurementId": "4192",
+              "type": "Sound Intensity"
+            },
+            {
+              "measurementValue": 2.57,
+              "measurementId": "4150",
+              "type": "AccelerometerX"
+            },
+            {
+              "measurementValue": 2.57,
+              "measurementId": "4151",
+              "type": "AccelerometerY"
+            },
+            {
+              "measurementValue": 2.57,
+              "measurementId": "4152",
+              "type": "AccelerometerZ"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "4201010101010101010101",
+    "name": "42",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4201010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 2.57,
+              "measurementId": "4097",
+              "type": "Air Temperature"
+            },
+            {
+              "measurementValue": 2.57,
+              "measurementId": "4098",
+              "type": "Air Humidity"
+            },
+            {
+              "measurementValue": 257,
+              "measurementId": "4195",
+              "type": "Total Volatile Organic Compounds"
+            },
+            {
+              "measurementValue": 257,
+              "measurementId": "4100",
+              "type": "CO2"
+            },
+            {
+              "measurementValue": 257,
+              "measurementId": "4196",
+              "type": "Soil moisture intensity"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "4301010101010101010101",
+    "name": "43",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4301010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4175,
+              "type": "AI Detection 0"
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4176,
+              "type": "AI Detection 4"
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4177,
+              "type": "AI Detection 8"
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4178,
+              "type": "AI Detection 12"
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4179,
+              "type": "AI Detection 16"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "4401010101010101010101",
+    "name": "44",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4401010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4175,
+              "type": "AI Detection 0"
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4176,
+              "type": "AI Detection 4"
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4177,
+              "type": "AI Detection 8"
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4178,
+              "type": "AI Detection 12"
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4179,
+              "type": "AI Detection 16"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "4501010101010101010101",
+    "name": "45",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4501010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4180,
+              "type": "AI Detection 0"
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4181,
+              "type": "AI Detection 4"
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4182,
+              "type": "AI Detection 8"
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4183,
+              "type": "AI Detection 12"
+            },
+            {
+              "measurementValue": "1.1",
+              "measurementId": 4184,
+              "type": "AI Detection 16"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "020101010101010101",
+    "name": "02",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "020101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 257,
+              "measurementId": "4104",
+              "type": "Wind Direction Sensor"
+            },
+            {
+              "measurementValue": 16843.009,
+              "measurementId": "4113",
+              "type": "Rain Gauge"
+            },
+            {
+              "measurementValue": 2570,
+              "measurementId": "4101",
+              "type": "Barometric Pressure"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "0301",
+    "name": "03",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "0301",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "Battery(%)": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "0601",
+    "name": "06",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "0601",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementId": "4101",
+              "type": "sensor_error_event",
+              "errCode": "01",
+              "descZh": "CCL_SENSOR_NOT_FOUND"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "0501010101",
+    "name": "05",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "0501010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measureInterval": 15420,
+              "gpsInterval": 15420
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "3401010101",
+    "name": "34",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "3401010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "dataloggerProtocol": 1,
+              "dataloggerGPIOInput": 1,
+              "dataloggerAnalogType": 1,
+              "dataloggerAnalogInterface": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "04010101010101010101",
+    "name": "04",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "04010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "Battery(%)": 1,
+              "Hardware Version": "1.1",
+              "Firmware Version": "1.1",
+              "measureInterval": 15420,
+              "gpsInterval": 15420
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "10010101010101010101",
+    "name": "10",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "10010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "status": 0,
+              "channelType": 1,
+              "sensorEui": "0101010101010101"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "32120101010101010101",
+    "name": "32",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "32120101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 16843.009,
+              "measurementId": 1,
+              "type": "Measurement"
+            },
+            {
+              "measurementValue": 16843.009,
+              "measurementId": 2,
+              "type": "Measurement"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "35120101010101010101",
+    "name": "35",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "35120101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "3920": 16843.009,
+              "3921": 16843.009
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "36120101010101010101",
+    "name": "36",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "36120101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "3920": 16843.009,
+              "3921": 16843.009
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "37120101010101010101",
+    "name": "37",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "37120101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "3920": 16843.009,
+              "3921": 16843.009
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "38120101010101010101",
+    "name": "38",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "38120101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "3920": 16843.009,
+              "3921": 16843.009
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2100",
+    "payload": "39010101010101010101",
+    "name": "39",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "39010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "Battery(%)": 1,
+              "Hardware Version": "1.1",
+              "Firmware Version": "1.1",
+              "measureInterval": 15420,
+              "thresholdMeasureInterval": 257
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "0101010101010101010101",
+    "name": "01",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "0101010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 25.7,
+              "measurementId": "4097",
+              "type": "Air Temperature"
+            },
+            {
+              "measurementValue": 1,
+              "measurementId": "4098",
+              "type": "Air Humidity"
+            },
+            {
+              "measurementValue": 16843009,
+              "measurementId": "4099",
+              "type": "Light Intensity"
+            },
+            {
+              "measurementValue": 0.1,
+              "measurementId": "4190",
+              "type": "UV Index"
+            },
+            {
+              "measurementValue": 25.7,
+              "measurementId": "4105",
+              "type": "Wind Speed"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "2001010101010101010101",
+    "name": "20",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "2001010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "2101010101010101010101",
+    "name": "21",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "2101010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "3012010101010101010101",
+    "name": "30",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "3012010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "3112010101010101010101",
+    "name": "31",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "3112010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "3312010101010101010101",
+    "name": "33",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "3312010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "4001010101010101010101",
+    "name": "40",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4001010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "4101010101010101010101",
+    "name": "41",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4101010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "4201010101010101010101",
+    "name": "42",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4201010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "4301010101010101010101",
+    "name": "43",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4301010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "4401010101010101010101",
+    "name": "44",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4401010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "4501010101010101010101",
+    "name": "45",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4501010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "020101010101010101",
+    "name": "02",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "020101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 257,
+              "measurementId": "4104",
+              "type": "Wind Direction Sensor"
+            },
+            {
+              "measurementValue": 16843.009,
+              "measurementId": "4113",
+              "type": "Rain Gauge"
+            },
+            {
+              "measurementValue": 2570,
+              "measurementId": "4101",
+              "type": "Barometric Pressure"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "0301",
+    "name": "03",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "0301",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "Battery(%)": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "0601",
+    "name": "06",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "0601",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementId": "4101",
+              "type": "sensor_error_event",
+              "errCode": "01",
+              "descZh": "CCL_SENSOR_NOT_FOUND"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "0501010101",
+    "name": "05",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "0501010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measureInterval": 15420,
+              "gpsInterval": 15420
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "3401010101",
+    "name": "34",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "3401010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "04010101010101010101",
+    "name": "04",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "04010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "Battery(%)": 1,
+              "Hardware Version": "1.1",
+              "Firmware Version": "1.1",
+              "measureInterval": 15420,
+              "gpsInterval": 15420
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "10010101010101010101",
+    "name": "10",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "10010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "status": 0,
+              "channelType": 1,
+              "sensorEui": "0101010101010101"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "32120101010101010101",
+    "name": "32",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "32120101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "35120101010101010101",
+    "name": "35",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "35120101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "36120101010101010101",
+    "name": "36",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "36120101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "37120101010101010101",
+    "name": "37",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "37120101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "38120101010101010101",
+    "name": "38",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "38120101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "39010101010101010101",
+    "name": "39",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "39010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "4a01010101010101010101",
+    "name": "4a",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4A01010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 25.7,
+              "measurementId": "4097",
+              "type": "Air Temperature"
+            },
+            {
+              "measurementValue": 1,
+              "measurementId": "4098",
+              "type": "Air Humidity"
+            },
+            {
+              "measurementValue": 16843009,
+              "measurementId": "4099",
+              "type": "Light Intensity"
+            },
+            {
+              "measurementValue": 0.1,
+              "measurementId": "4190",
+              "type": "UV Index"
+            },
+            {
+              "measurementValue": 25.7,
+              "measurementId": "4105",
+              "type": "Wind Speed"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "4b0101010101010101",
+    "name": "4b",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4B0101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 257,
+              "measurementId": "4104",
+              "type": "Wind Direction Sensor"
+            },
+            {
+              "measurementValue": 16843.009,
+              "measurementId": "4113",
+              "type": "Rain Gauge"
+            },
+            {
+              "measurementValue": 2570,
+              "measurementId": "4101",
+              "type": "Barometric Pressure"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2120",
+    "payload": "4c010101010101",
+    "name": "4c",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4C010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 25.7,
+              "measurementId": "4191",
+              "type": " Peak Wind Gust"
+            },
+            {
+              "measurementValue": 16843.009,
+              "measurementId": "4213",
+              "type": "Rain Accumulation"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "0101010101010101010101",
+    "name": "01",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "0101010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 25.7,
+              "measurementId": "4097",
+              "type": "Air Temperature"
+            },
+            {
+              "measurementValue": 1,
+              "measurementId": "4098",
+              "type": "Air Humidity"
+            },
+            {
+              "measurementValue": 16843009,
+              "measurementId": "4099",
+              "type": "Light Intensity"
+            },
+            {
+              "measurementValue": 0.1,
+              "measurementId": "4190",
+              "type": "UV Index"
+            },
+            {
+              "measurementValue": 25.7,
+              "measurementId": "4105",
+              "type": "Wind Speed"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "2001010101010101010101",
+    "name": "20",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "2001010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "2101010101010101010101",
+    "name": "21",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "2101010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "3012010101010101010101",
+    "name": "30",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "3012010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "3112010101010101010101",
+    "name": "31",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "3112010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "3312010101010101010101",
+    "name": "33",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "3312010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "4001010101010101010101",
+    "name": "40",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4001010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "4101010101010101010101",
+    "name": "41",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4101010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "4201010101010101010101",
+    "name": "42",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4201010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "4301010101010101010101",
+    "name": "43",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4301010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "4401010101010101010101",
+    "name": "44",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4401010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "4501010101010101010101",
+    "name": "45",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4501010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "020101010101010101",
+    "name": "02",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "020101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 257,
+              "measurementId": "4104",
+              "type": "Wind Direction Sensor"
+            },
+            {
+              "measurementValue": 16843.009,
+              "measurementId": "4113",
+              "type": "Rain Gauge"
+            },
+            {
+              "measurementValue": 2570,
+              "measurementId": "4101",
+              "type": "Barometric Pressure"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "0301",
+    "name": "03",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "0301",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "Battery(%)": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "0601",
+    "name": "06",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "0601",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementId": "4101",
+              "type": "sensor_error_event",
+              "errCode": "01",
+              "descZh": "CCL_SENSOR_NOT_FOUND"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "0501010101",
+    "name": "05",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "0501010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measureInterval": 15420,
+              "gpsInterval": 15420
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "3401010101",
+    "name": "34",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "3401010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "04010101010101010101",
+    "name": "04",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "04010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "Battery(%)": 1,
+              "Hardware Version": "1.1",
+              "Firmware Version": "1.1",
+              "measureInterval": 15420,
+              "gpsInterval": 15420
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "10010101010101010101",
+    "name": "10",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "10010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "status": 0,
+              "channelType": 1,
+              "sensorEui": "0101010101010101"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "32120101010101010101",
+    "name": "32",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "32120101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "35120101010101010101",
+    "name": "35",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "35120101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "36120101010101010101",
+    "name": "36",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "36120101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "37120101010101010101",
+    "name": "37",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "37120101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "38120101010101010101",
+    "name": "38",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "38120101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "39010101010101010101",
+    "name": "39",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "39010101010101010101",
+        "valid": true,
+        "messages": [
+          []
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "4601010101010101010101",
+    "name": "46",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4601010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": "2.57",
+              "measurementId": "4203",
+              "type": "Temperature",
+              "measurementChannel": "1",
+              "measureTime": 16843009000
+            },
+            {
+              "measurementValue": "2.57",
+              "measurementId": "4203",
+              "type": "Temperature",
+              "measurementChannel": "2",
+              "measureTime": 16843009000
+            },
+            {
+              "measurementValue": "2.57",
+              "measurementId": "4203",
+              "type": "Temperature",
+              "measurementChannel": "3",
+              "measureTime": 16843009000
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "47010101010101",
+    "name": "47",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "47010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": "2.57",
+              "measurementId": "4203",
+              "type": "Temperature",
+              "measurementChannel": "1"
+            },
+            {
+              "measurementValue": "2.57",
+              "measurementId": "4203",
+              "type": "Temperature",
+              "measurementChannel": "2"
+            },
+            {
+              "measurementValue": "2.57",
+              "measurementId": "4203",
+              "type": "Temperature",
+              "measurementChannel": "3"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "4801010101010101010101",
+    "name": "48",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4801010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "channel_index": "1",
+              "status": "normal",
+              "channelType": "1"
+            },
+            {
+              "channel_index": "2",
+              "status": "normal",
+              "channelType": "1"
+            },
+            {
+              "channel_index": "3",
+              "status": "normal",
+              "channelType": "1"
+            },
+            {
+              "channel_index": "4",
+              "status": "normal",
+              "channelType": "1"
+            },
+            {
+              "channel_index": "5",
+              "status": "normal",
+              "channelType": "1"
+            },
+            {
+              "channel_index": "6",
+              "status": "normal",
+              "channelType": "1"
+            },
+            {
+              "channel_index": "7",
+              "status": "normal",
+              "channelType": "1"
+            },
+            {
+              "channel_index": "8",
+              "status": "normal",
+              "channelType": "1"
+            },
+            {
+              "channel_index": "9",
+              "status": "normal",
+              "channelType": "1"
+            },
+            {
+              "channel_index": "10",
+              "status": "normal",
+              "channelType": "1"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "4901010101010101",
+    "name": "49",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4901010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "Battery(%)": 1,
+              "Hardware Version": "1.1",
+              "Firmware Version": "1.1",
+              "measureInterval": 15420
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "S2107",
+    "payload": "7f01",
+    "name": "7f",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "7F01",
+        "valid": true,
+        "messages": []
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "0101010101010101010101",
+    "name": "01",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "0101010101010101010101",
+        "valid": true,
+        "messages": []
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "2001010101010101010101",
+    "name": "20",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "2001010101010101010101",
+        "valid": true,
+        "messages": []
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "2101010101010101010101",
+    "name": "21",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "2101010101010101010101",
+        "valid": true,
+        "messages": []
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "3012010101010101010101",
+    "name": "30",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "3012010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 16843.018999999997,
+              "measurementId": "4165",
+              "type": "unknown Conf"
+            },
+            {
+              "measurementValue": 16843.018999999997,
+              "measurementId": "4166",
+              "type": "unknown Conf"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "3112010101010101010101",
+    "name": "31",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "3112010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 16843.018999999997,
+              "measurementId": "4165",
+              "type": "unknown Conf"
+            },
+            {
+              "measurementValue": 16843.018999999997,
+              "measurementId": "4166",
+              "type": "unknown Conf"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "3312010101010101010101",
+    "name": "33",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "3312010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 16843.018999999997,
+              "measurementId": "4165",
+              "type": "unknown Conf"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "4001010101010101010101",
+    "name": "40",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4001010101010101010101",
+        "valid": true,
+        "messages": []
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "4101010101010101010101",
+    "name": "41",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4101010101010101010101",
+        "valid": true,
+        "messages": []
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "4201010101010101010101",
+    "name": "42",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4201010101010101010101",
+        "valid": true,
+        "messages": []
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "4301010101010101010101",
+    "name": "43",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4301010101010101010101",
+        "valid": true,
+        "messages": []
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "4401010101010101010101",
+    "name": "44",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4401010101010101010101",
+        "valid": true,
+        "messages": []
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "4501010101010101010101",
+    "name": "45",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "4501010101010101010101",
+        "valid": true,
+        "messages": []
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "020101010101010101",
+    "name": "02",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "020101010101010101",
+        "valid": true,
+        "messages": []
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "0301",
+    "name": "03",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "0301",
+        "valid": true,
+        "messages": []
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "0601",
+    "name": "06",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "0601",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementId": "4101",
+              "type": "sensor_error_event",
+              "errCode": "01",
+              "descZh": "CCL_SENSOR_NOT_FOUND"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "0501010101",
+    "name": "05",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "0501010101",
+        "valid": true,
+        "messages": []
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "3401010101",
+    "name": "34",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "3401010101",
+        "valid": true,
+        "messages": []
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "04010101010101010101",
+    "name": "04",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "04010101010101010101",
+        "valid": true,
+        "messages": []
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "10010101010101010101",
+    "name": "10",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "10010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "status": 0,
+              "channelType": 1,
+              "sensorEui": "0101010101010101"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "32120101010101010101",
+    "name": "32",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "32120101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "measurementValue": 16843.018999999997,
+              "measurementId": "4165",
+              "type": "unknown Conf"
+            },
+            {
+              "measurementValue": 16843.018999999997,
+              "measurementId": "4166",
+              "type": "unknown Conf"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "35120101010101010101",
+    "name": "35",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "35120101010101010101",
+        "valid": true,
+        "messages": []
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "36120101010101010101",
+    "name": "36",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "36120101010101010101",
+        "valid": true,
+        "messages": []
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "37120101010101010101",
+    "name": "37",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "37120101010101010101",
+        "valid": true,
+        "messages": []
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "38120101010101010101",
+    "name": "38",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "38120101010101010101",
+        "valid": true,
+        "messages": []
+      }
+    }
+  },
+  {
+    "family": "A1102",
+    "payload": "39010101010101010101",
+    "name": "39",
+    "expected": {
+      "data": {
+        "err": 0,
+        "payload": "39010101010101010101",
+        "valid": true,
+        "messages": [
+          [
+            {
+              "Battery(%)": 1,
+              "Hardware Version": "1.1",
+              "Firmware Version": "1.1",
+              "measureInterval": 15420,
+              "thresholdMeasureInterval": 257
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101",
+    "name": "01",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "3000",
+              "type": "Battery",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3502",
+              "type": "Firmware Version",
+              "measurementValue": "1.1"
+            },
+            {
+              "measurementId": "3001",
+              "type": "Hardware Version",
+              "measurementValue": "1.1"
+            },
+            {
+              "measurementId": "3940",
+              "type": "Work Mode",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3965",
+              "type": "Positioning Strategy",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3942",
+              "type": "Heartbeat Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3943",
+              "type": "Periodic Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3944",
+              "type": "Event Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3945",
+              "type": "Sensor Enable",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3941",
+              "type": "SOS Mode",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3946",
+              "type": "Motion Enable",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3947",
+              "type": "Any Motion Threshold",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3948",
+              "type": "Motion Start Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3949",
+              "type": "Static Enable",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3950",
+              "type": "Device Static Timeout",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3951",
+              "type": "Shock Enable",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3952",
+              "type": "Shock Threshold",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3953",
+              "type": "Temp Enable",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3954",
+              "type": "Event Temp Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3955",
+              "type": "Event Temp Sample Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3956",
+              "type": "Temp ThMax",
+              "measurementValue": 25.7
+            },
+            {
+              "measurementId": "3957",
+              "type": "Temp ThMin",
+              "measurementValue": 25.7
+            },
+            {
+              "measurementId": "3958",
+              "type": "Temp Warning Type",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3959",
+              "type": "Light Enable",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3960",
+              "type": "Event Light Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3961",
+              "type": "Event Light Sample Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3962",
+              "type": "Light ThMax",
+              "measurementValue": 25.7
+            },
+            {
+              "measurementId": "3963",
+              "type": "Light ThMin",
+              "measurementValue": 25.7
+            },
+            {
+              "measurementId": "3964",
+              "type": "Light Warning Type",
+              "measurementValue": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "02010101010101010101010101010101",
+    "name": "02",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "02010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "3000",
+              "type": "Battery",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3502",
+              "type": "Firmware Version",
+              "measurementValue": "1.1"
+            },
+            {
+              "measurementId": "3001",
+              "type": "Hardware Version",
+              "measurementValue": "1.1"
+            },
+            {
+              "measurementId": "3940",
+              "type": "Work Mode",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3965",
+              "type": "Positioning Strategy",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3942",
+              "type": "Heartbeat Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3943",
+              "type": "Periodic Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3944",
+              "type": "Event Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3945",
+              "type": "Sensor Enable",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3941",
+              "type": "SOS Mode",
+              "measurementValue": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "0301010101010101010101010101010101010101010101010101010101010101",
+    "name": "03",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "0301010101010101010101010101010101010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "3946",
+              "type": "Motion Enable",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3947",
+              "type": "Any Motion Threshold",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3948",
+              "type": "Motion Start Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3949",
+              "type": "Static Enable",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3950",
+              "type": "Device Static Timeout",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3951",
+              "type": "Shock Enable",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3952",
+              "type": "Shock Threshold",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3953",
+              "type": "Temp Enable",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3954",
+              "type": "Event Temp Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3955",
+              "type": "Event Temp Sample Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3956",
+              "type": "Temp ThMax",
+              "measurementValue": 25.7
+            },
+            {
+              "measurementId": "3957",
+              "type": "Temp ThMin",
+              "measurementValue": 25.7
+            },
+            {
+              "measurementId": "3958",
+              "type": "Temp Warning Type",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3959",
+              "type": "Light Enable",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3960",
+              "type": "Event Light Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3961",
+              "type": "Event Light Sample Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3962",
+              "type": "Light ThMax",
+              "measurementValue": 25.7
+            },
+            {
+              "measurementId": "3963",
+              "type": "Light ThMin",
+              "measurementValue": 25.7
+            },
+            {
+              "measurementId": "3964",
+              "type": "Light Warning Type",
+              "measurementValue": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "04010101010101010101",
+    "name": "04",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "04010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "3940",
+              "type": "Work Mode",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3942",
+              "type": "Heartbeat Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3943",
+              "type": "Periodic Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3944",
+              "type": "Event Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3941",
+              "type": "SOS Mode",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3900",
+              "type": "Uplink Interval",
+              "measurementValue": 257
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "0501010101",
+    "name": "05",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "0501010101",
+        "messages": [
+          [
+            {
+              "measurementId": "3000",
+              "type": "Battery",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3940",
+              "type": "Work Mode",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3965",
+              "type": "Positioning Strategy",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3941",
+              "type": "SOS Mode",
+              "measurementValue": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "06010101010101010101010101010101010101010101",
+    "name": "06",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "06010101010101010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Event Status",
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "4197",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Longitude",
+              "measurementValue": 16.843009
+            },
+            {
+              "measurementId": "4198",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Latitude",
+              "measurementValue": 16.843009
+            },
+            {
+              "measurementId": "4097",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Air Temperature",
+              "measurementValue": 25.7
+            },
+            {
+              "measurementId": "4199",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Light",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3000",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Battery",
+              "measurementValue": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "070101010101010101010101010101010101010101010101010101010101010101010101010101010101",
+    "name": "07",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "070101010101010101010101010101010101010101010101010101010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Event Status",
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "5001",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Wi-Fi Scan",
+              "measurementValue": [
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                }
+              ]
+            },
+            {
+              "measurementId": "4097",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Air Temperature",
+              "measurementValue": 25.7
+            },
+            {
+              "measurementId": "4199",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Light",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3000",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Battery",
+              "measurementValue": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "0801010101010101010101010101010101010101010101010101010101010101010101",
+    "name": "08",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "0801010101010101010101010101010101010101010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Event Status",
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "5002",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "BLE Scan",
+              "measurementValue": [
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                }
+              ]
+            },
+            {
+              "measurementId": "4097",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Air Temperature",
+              "measurementValue": 25.7
+            },
+            {
+              "measurementId": "4199",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Light",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3000",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Battery",
+              "measurementValue": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "090101010101010101010101010101010101",
+    "name": "09",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "090101010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Event Status",
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "4197",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Longitude",
+              "measurementValue": 16.843009
+            },
+            {
+              "measurementId": "4198",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Latitude",
+              "measurementValue": 16.843009
+            },
+            {
+              "measurementId": "3000",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Battery",
+              "measurementValue": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "0a01010101010101010101010101010101010101010101010101010101010101010101010101",
+    "name": "0a",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "0a01010101010101010101010101010101010101010101010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Event Status",
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "5001",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Wi-Fi Scan",
+              "measurementValue": [
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                }
+              ]
+            },
+            {
+              "measurementId": "3000",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Battery",
+              "measurementValue": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "0b010101010101010101010101010101010101010101010101010101010101",
+    "name": "0b",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "0b010101010101010101010101010101010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Event Status",
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "5002",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "BLE Scan",
+              "measurementValue": [
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                }
+              ]
+            },
+            {
+              "measurementId": "3000",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Battery",
+              "measurementValue": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "0d01010101",
+    "name": "0d",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 16843009,
+        "payload": "0d01010101",
+        "messages": [],
+        "errMessage": ""
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "0f01010101010101010101010101010101",
+    "name": "0f",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "0f01010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "groupId": 257,
+              "index": 1,
+              "count": 0,
+              "type": "Event Status",
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "4097",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "groupId": 257,
+              "index": 1,
+              "count": 0,
+              "type": "Air Temperature",
+              "measurementValue": 25.7
+            },
+            {
+              "measurementId": "4199",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "groupId": 257,
+              "index": 1,
+              "count": 0,
+              "type": "Light",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3000",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "groupId": 257,
+              "index": 1,
+              "count": 0,
+              "type": "Battery",
+              "measurementValue": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "10010101010101010101010101",
+    "name": "10",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "10010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "groupId": 257,
+              "index": 1,
+              "count": 0,
+              "type": "Event Status",
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "3000",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "groupId": 257,
+              "index": 1,
+              "count": 0,
+              "type": "Battery",
+              "measurementValue": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "1101010101010101010101010101",
+    "name": "11",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "1101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "3576",
+              "timestamp": 16843009000,
+              "type": "Positioning Status",
+              "measurementValue": {
+                "id": 1,
+                "statusName": "The GNSS scan timed out."
+              }
+            },
+            {
+              "timestamp": 16843009000,
+              "measurementId": "4200",
+              "type": "Event Status",
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "timestamp": 16843009000,
+              "measurementId": "4097",
+              "type": "Air Temperature",
+              "measurementValue": 25.7
+            },
+            {
+              "timestamp": 16843009000,
+              "measurementId": "4199",
+              "type": "Light",
+              "measurementValue": 257
+            },
+            {
+              "timestamp": 16843009000,
+              "measurementId": "3000",
+              "type": "Battery",
+              "measurementValue": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "1a010101010101010101010101010101010101010101010101010101",
+    "name": "1a",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "1a010101010101010101010101010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Event Status",
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "4197",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Longitude",
+              "measurementValue": 16.843009
+            },
+            {
+              "measurementId": "4198",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Latitude",
+              "measurementValue": 16.843009
+            },
+            {
+              "measurementId": "4097",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Air Temperature",
+              "measurementValue": 25.7
+            },
+            {
+              "measurementId": "4199",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Light",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "4210",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "AccelerometerX",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "4211",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "AccelerometerY",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "4212",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "AccelerometerZ",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3000",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Battery",
+              "measurementValue": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "1b0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101",
+    "name": "1b",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "1b0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Event Status",
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "5001",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Wi-Fi Scan",
+              "measurementValue": [
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                }
+              ]
+            },
+            {
+              "measurementId": "4097",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Air Temperature",
+              "measurementValue": 25.7
+            },
+            {
+              "measurementId": "4199",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Light",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "4210",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "AccelerometerX",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "4211",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "AccelerometerY",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "4212",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "AccelerometerZ",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3000",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Battery",
+              "measurementValue": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "1c01010101010101010101010101010101010101010101010101010101010101010101010101010101",
+    "name": "1c",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "1c01010101010101010101010101010101010101010101010101010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Event Status",
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "5002",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "BLE Scan",
+              "measurementValue": [
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                }
+              ]
+            },
+            {
+              "measurementId": "4097",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Air Temperature",
+              "measurementValue": 25.7
+            },
+            {
+              "measurementId": "4199",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Light",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "4210",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "AccelerometerX",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "4211",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "AccelerometerY",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "4212",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "AccelerometerZ",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3000",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Battery",
+              "measurementValue": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "1d01010101010101010101010101010101010101",
+    "name": "1d",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "1d01010101010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "3576",
+              "timestamp": 16843009000,
+              "type": "Positioning Status",
+              "measurementValue": {
+                "id": 1,
+                "statusName": "The GNSS scan timed out."
+              }
+            },
+            {
+              "timestamp": 16843009000,
+              "measurementId": "4200",
+              "type": "Event Status",
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "timestamp": 16843009000,
+              "measurementId": "4097",
+              "type": "Air Temperature",
+              "measurementValue": 25.7
+            },
+            {
+              "timestamp": 16843009000,
+              "measurementId": "4199",
+              "type": "Light",
+              "measurementValue": 257
+            },
+            {
+              "timestamp": 16843009000,
+              "measurementId": "4210",
+              "type": "AccelerometerX",
+              "measurementValue": 257
+            },
+            {
+              "timestamp": 16843009000,
+              "measurementId": "4211",
+              "type": "AccelerometerY",
+              "measurementValue": 257
+            },
+            {
+              "timestamp": 16843009000,
+              "measurementId": "4212",
+              "type": "AccelerometerZ",
+              "measurementValue": 257
+            },
+            {
+              "timestamp": 16843009000,
+              "measurementId": "3000",
+              "type": "Battery",
+              "measurementValue": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000E",
+    "payload": "1e010101010101010101010101",
+    "name": "1e",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "1e010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "3000",
+              "type": "Battery",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3502",
+              "type": "Firmware Version",
+              "measurementValue": "1.1"
+            },
+            {
+              "measurementId": "3001",
+              "type": "Hardware Version",
+              "measurementValue": "1.1"
+            },
+            {
+              "measurementId": "3965",
+              "type": "Positioning Strategy",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3900",
+              "type": "Uplink Interval",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "3974",
+              "type": "Accelerometer Enable",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3941",
+              "type": "SOS Mode",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3972",
+              "type": "WI-FI Scan Limitation",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "3973",
+              "type": "Beacon Scan Limitation",
+              "measurementValue": 1
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000E",
+    "payload": "1f0101010101010101010101010101010101010101",
+    "name": "1f",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "1f0101010101010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "5003",
+              "measureTime": 1791947792,
+              "value": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "3000",
+              "measureTime": 1791947792,
+              "value": 1
+            },
+            {
+              "measurementId": "4097",
+              "measureTime": 1791947792,
+              "value": 25.7
+            },
+            {
+              "measurementId": "4199",
+              "measureTime": 1791947792,
+              "value": 257
+            },
+            {
+              "measurementId": "4210",
+              "measureTime": 1791947792,
+              "value": 257
+            },
+            {
+              "measurementId": "4211",
+              "measureTime": 1791947792,
+              "value": 257
+            },
+            {
+              "measurementId": "4212",
+              "measureTime": 1791947792,
+              "value": 257
+            },
+            {
+              "measurementId": "4197",
+              "measureTime": 1791947792,
+              "value": 16.843009
+            },
+            {
+              "measurementId": "4198",
+              "measureTime": 1791947792,
+              "value": 16.843009
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000E",
+    "payload": "220101010101010101010101010101",
+    "name": "22",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "220101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "5003",
+              "measureTime": 1791947792,
+              "value": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "3000",
+              "measureTime": 1791947792,
+              "value": 1
+            },
+            {
+              "measurementId": "4097",
+              "measureTime": 1791947792,
+              "value": 25.7
+            },
+            {
+              "measurementId": "4199",
+              "measureTime": 1791947792,
+              "value": 257
+            },
+            {
+              "measurementId": "4197",
+              "measureTime": 1791947792,
+              "value": 16.843009
+            },
+            {
+              "measurementId": "4198",
+              "measureTime": 1791947792,
+              "value": 16.843009
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000E",
+    "payload": "25010101010101010101010101",
+    "name": "25",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "25010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "5003",
+              "measureTime": 1791947792,
+              "value": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "3000",
+              "measureTime": 1791947792,
+              "value": 1
+            },
+            {
+              "measurementId": "4097",
+              "measureTime": 1791947792,
+              "value": 25.7
+            },
+            {
+              "measurementId": "4199",
+              "measureTime": 1791947792,
+              "value": 257
+            },
+            {
+              "measurementId": "4210",
+              "measureTime": 1791947792,
+              "value": 257
+            },
+            {
+              "measurementId": "4211",
+              "measureTime": 1791947792,
+              "value": 257
+            },
+            {
+              "measurementId": "4212",
+              "measureTime": 1791947792,
+              "value": 257
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000E",
+    "payload": "26010101010101",
+    "name": "26",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "26010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "5003",
+              "measureTime": 1791947792,
+              "value": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "3000",
+              "measureTime": 1791947792,
+              "value": 1
+            },
+            {
+              "measurementId": "4097",
+              "measureTime": 1791947792,
+              "value": 25.7
+            },
+            {
+              "measurementId": "4199",
+              "measureTime": 1791947792,
+              "value": 257
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T2000",
+    "payload": "0c",
+    "name": "0c",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "0c",
+        "messages": [
+          [
+            {
+              "type": "timeSync"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T2000",
+    "payload": "0d01010101",
+    "name": "0d",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 16843009,
+        "payload": "0d01010101",
+        "messages": [],
+        "errMessage": ""
+      }
+    }
+  },
+  {
+    "family": "T2000",
+    "payload": "27010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101",
+    "name": "27",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "27010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "3000",
+              "measurementValue": 1,
+              "type": "Battery"
+            },
+            {
+              "measurementId": "3502",
+              "measurementValue": "1.1",
+              "type": "Firmware Version"
+            },
+            {
+              "measurementId": "3001",
+              "measurementValue": "1.1",
+              "type": "Hardware Version"
+            },
+            {
+              "measurementId": "3940",
+              "measurementValue": 1,
+              "type": "Work Mode"
+            },
+            {
+              "measurementId": "3965",
+              "measurementValue": 1,
+              "type": "Positioning Strategy"
+            },
+            {
+              "measurementId": "3942",
+              "measurementValue": 257,
+              "type": "Heartbeat Interval"
+            },
+            {
+              "measurementId": "3943",
+              "measurementValue": 257,
+              "type": "Periodic Interval"
+            },
+            {
+              "measurementId": "3944",
+              "measurementValue": 257,
+              "type": "Event Interval"
+            },
+            {
+              "measurementId": "3974",
+              "measurementValue": 1,
+              "type": "3X Sensor Enable"
+            },
+            {
+              "measurementId": "3976",
+              "measurementValue": 1,
+              "type": "Anti-Theft"
+            },
+            {
+              "measurementId": "3977",
+              "measurementValue": 1,
+              "type": "GNSS Scan Timeout"
+            },
+            {
+              "measurementId": "3900",
+              "measurementValue": 257,
+              "type": "Uplink Interval"
+            },
+            {
+              "measurementId": "3978",
+              "measurementValue": 1,
+              "type": "BLE Scan Timeout"
+            },
+            {
+              "measurementId": "3979",
+              "measurementValue": "01",
+              "type": "UUID Filter"
+            },
+            {
+              "measurementId": "3946",
+              "measurementValue": 1,
+              "type": "Motion Enable"
+            },
+            {
+              "measurementId": "3947",
+              "measurementValue": 257,
+              "type": "Any Motion Threshold"
+            },
+            {
+              "measurementId": "3948",
+              "measurementValue": 257,
+              "type": "Motion Start Interval"
+            },
+            {
+              "measurementId": "3949",
+              "measurementValue": 1,
+              "type": "Static Enable"
+            },
+            {
+              "measurementId": "3950",
+              "measurementValue": 257,
+              "type": "Device Static Timeout"
+            },
+            {
+              "measurementId": "3951",
+              "measurementValue": 1,
+              "type": "Shock Enable"
+            },
+            {
+              "measurementId": "3952",
+              "measurementValue": 257,
+              "type": "Shock Threshold"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T2000",
+    "payload": "280101010101010101010101010101010101010101010101010101010101",
+    "name": "28",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "280101010101010101010101010101010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "3940",
+              "measurementValue": 1,
+              "type": "Work Mode"
+            },
+            {
+              "measurementId": "3965",
+              "measurementValue": 1,
+              "type": "Positioning Strategy"
+            },
+            {
+              "measurementId": "3942",
+              "measurementValue": 257,
+              "type": "Heartbeat Interval"
+            },
+            {
+              "measurementId": "3943",
+              "measurementValue": 257,
+              "type": "Periodic Interval"
+            },
+            {
+              "measurementId": "3944",
+              "measurementValue": 257,
+              "type": "Event Interval"
+            },
+            {
+              "measurementId": "3974",
+              "measurementValue": 1,
+              "type": "3X Sensor Enable"
+            },
+            {
+              "measurementId": "3976",
+              "measurementValue": 1,
+              "type": "Anti-Theft"
+            },
+            {
+              "measurementId": "3977",
+              "measurementValue": 1,
+              "type": "GNSS Scan Timeout"
+            },
+            {
+              "measurementId": "3900",
+              "measurementValue": 257,
+              "type": "Uplink Interval"
+            },
+            {
+              "measurementId": "3978",
+              "measurementValue": 1,
+              "type": "BLE Scan Timeout"
+            },
+            {
+              "measurementId": "3979",
+              "measurementValue": "01",
+              "type": "UUID Filter"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T2000",
+    "payload": "290101010101010101010101",
+    "name": "29",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "290101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "3946",
+              "measurementValue": 1,
+              "type": "Motion Enable"
+            },
+            {
+              "measurementId": "3947",
+              "measurementValue": 257,
+              "type": "Any Motion Threshold"
+            },
+            {
+              "measurementId": "3948",
+              "measurementValue": 257,
+              "type": "Motion Start Interval"
+            },
+            {
+              "measurementId": "3949",
+              "measurementValue": 1,
+              "type": "Static Enable"
+            },
+            {
+              "measurementId": "3950",
+              "measurementValue": 257,
+              "type": "Device Static Timeout"
+            },
+            {
+              "measurementId": "3951",
+              "measurementValue": 1,
+              "type": "Shock Enable"
+            },
+            {
+              "measurementId": "3952",
+              "measurementValue": 257,
+              "type": "Shock Threshold"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T2000",
+    "payload": "2a0101010101",
+    "name": "2a",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "2a0101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "3000",
+              "measurementValue": 1,
+              "type": "Battery"
+            },
+            {
+              "measurementId": "3940",
+              "measurementValue": 1,
+              "type": "Work Mode"
+            },
+            {
+              "measurementId": "3965",
+              "measurementValue": 1,
+              "type": "Positioning Strategy"
+            },
+            {
+              "measurementId": "3974",
+              "measurementValue": 1,
+              "type": "3X Sensor Enable"
+            },
+            {
+              "measurementId": "3976",
+              "measurementValue": 1,
+              "type": "Anti-Theft"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T2000",
+    "payload": "2b01010101010101010101010101010101010101010101",
+    "name": "2b",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "2b01010101010101010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "4210",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": 257,
+              "type": "AccelerometerX"
+            },
+            {
+              "measurementId": "4211",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": 257,
+              "type": "AccelerometerY"
+            },
+            {
+              "measurementId": "4212",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": 257,
+              "type": "AccelerometerZ"
+            },
+            {
+              "measurementId": "4197",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": "16.843009",
+              "type": "Longitude"
+            },
+            {
+              "measurementId": "4198",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": "16.843009",
+              "type": "Latitude"
+            },
+            {
+              "measurementId": "3000",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": "1",
+              "type": "Battery"
+            },
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                },
+                {
+                  "id": 9,
+                  "eventName": "disassembled event"
+                }
+              ],
+              "type": "Event Status"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T2000",
+    "payload": "2e01010101010101010101010101010101",
+    "name": "2e",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "2e01010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "4197",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": "16.843009",
+              "type": "Longitude"
+            },
+            {
+              "measurementId": "4198",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": "16.843009",
+              "type": "Latitude"
+            },
+            {
+              "measurementId": "3000",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": "1",
+              "type": "Battery"
+            },
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                },
+                {
+                  "id": 9,
+                  "eventName": "disassembled event"
+                }
+              ],
+              "type": "Event Status"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T2000",
+    "payload": "310101010101010101010101010101",
+    "name": "31",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "310101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "3576",
+              "timestamp": 16843009000,
+              "motionId": 0,
+              "measurementValue": {
+                "id": 1,
+                "statusName": "The GNSS scan timed out."
+              },
+              "type": "Positioning Status"
+            },
+            {
+              "measurementId": "4210",
+              "timestamp": 16843009000,
+              "motionId": 0,
+              "measurementValue": 257,
+              "type": "AccelerometerX"
+            },
+            {
+              "measurementId": "4211",
+              "timestamp": 16843009000,
+              "motionId": 0,
+              "measurementValue": 257,
+              "type": "AccelerometerY"
+            },
+            {
+              "measurementId": "4212",
+              "timestamp": 16843009000,
+              "motionId": 0,
+              "measurementValue": 257,
+              "type": "AccelerometerZ"
+            },
+            {
+              "measurementId": "3000",
+              "timestamp": 16843009000,
+              "motionId": 0,
+              "measurementValue": "1",
+              "type": "Battery"
+            },
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 0,
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                },
+                {
+                  "id": 9,
+                  "eventName": "disassembled event"
+                }
+              ],
+              "type": "Event Status"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T2000",
+    "payload": "320101010101010101",
+    "name": "32",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "320101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "3576",
+              "timestamp": 16843009000,
+              "motionId": 0,
+              "measurementValue": {
+                "id": 1,
+                "statusName": "The GNSS scan timed out."
+              },
+              "type": "Positioning Status"
+            },
+            {
+              "measurementId": "3000",
+              "timestamp": 16843009000,
+              "motionId": 0,
+              "measurementValue": "1",
+              "type": "Battery"
+            },
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 0,
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                },
+                {
+                  "id": 9,
+                  "eventName": "disassembled event"
+                }
+              ],
+              "type": "Event Status"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "WM1110",
+    "payload": "130101010101010101010101",
+    "name": "13",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "130101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "groupId": 257,
+              "index": 1,
+              "count": 0,
+              "type": "Event Status",
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "WM1110",
+    "payload": "14010101010101010101010101010101010101010101010101010101010101010101010101",
+    "name": "14",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "14010101010101010101010101010101010101010101010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Event Status",
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "5001",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Wi-Fi Scan",
+              "measurementValue": [
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "WM1110",
+    "payload": "150101010101010101010101010101010101010101010101010101010101",
+    "name": "15",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "150101010101010101010101010101010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "Event Status",
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "5002",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "type": "BLE Scan",
+              "measurementValue": [
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "WM1110",
+    "payload": "160101010101010101",
+    "name": "16",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "160101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "3576",
+              "timestamp": 16843009000,
+              "type": "Positioning Status",
+              "measurementValue": {
+                "id": 1,
+                "statusName": "The GNSS scan timed out and failed to obtain the location."
+              }
+            },
+            {
+              "timestamp": 16843009000,
+              "measurementId": "4200",
+              "type": "Event Status",
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "WM1110",
+    "payload": "18010101010101010101010101010101010101010101010101010101",
+    "name": "18",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "18010101010101010101010101010101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "type": "Event Status",
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "4097",
+              "timestamp": 16843009000,
+              "type": "Air Temperature",
+              "measurementValue": 25.7
+            },
+            {
+              "measurementId": "4098",
+              "timestamp": 16843009000,
+              "type": "Air Humidity",
+              "measurementValue": 1
+            },
+            {
+              "measurementId": "4101",
+              "timestamp": 16843009000,
+              "type": "Barometric Pressure",
+              "measurementValue": 65793
+            },
+            {
+              "measurementId": "4115",
+              "timestamp": 16843009000,
+              "type": "Distance",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "4190",
+              "timestamp": 16843009000,
+              "type": "UV Index",
+              "measurementValue": 2.57
+            },
+            {
+              "measurementId": "4206",
+              "timestamp": 16843009000,
+              "type": "VOC_INDEX",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "4207",
+              "timestamp": 16843009000,
+              "type": "Noise",
+              "measurementValue": 257
+            },
+            {
+              "measurementId": "4150",
+              "timestamp": 16843009000,
+              "type": " AccelerometerX",
+              "measurementValue": 2.57
+            },
+            {
+              "measurementId": "4151",
+              "timestamp": 16843009000,
+              "type": "AccelerometerY",
+              "measurementValue": 2.57
+            },
+            {
+              "measurementId": "4152",
+              "timestamp": 16843009000,
+              "type": "AccelerometerZ",
+              "measurementValue": 2.57
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000E",
+    "payload": "20010101010101010101010101020101010101010101010101010101",
+    "name": "20-two-scans",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "20010101010101010101010101020101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "5003",
+              "measureTime": 1791947792,
+              "value": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "3000",
+              "measureTime": 1791947792,
+              "value": 1
+            },
+            {
+              "measurementId": "4097",
+              "measureTime": 1791947792,
+              "value": 25.7
+            },
+            {
+              "measurementId": "4199",
+              "measureTime": 1791947792,
+              "value": 257
+            },
+            {
+              "measurementId": "4210",
+              "measureTime": 1791947792,
+              "value": 257
+            },
+            {
+              "measurementId": "4211",
+              "measureTime": 1791947792,
+              "value": 257
+            },
+            {
+              "measurementId": "4212",
+              "measureTime": 1791947792,
+              "value": 257
+            },
+            {
+              "measurementId": "5001",
+              "measureTime": 1791947792,
+              "value": [
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000E",
+    "payload": "21010101010101010101010101020101010101010101010101010101",
+    "name": "21-two-scans",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "21010101010101010101010101020101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "5003",
+              "measureTime": 1791947792,
+              "value": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "3000",
+              "measureTime": 1791947792,
+              "value": 1
+            },
+            {
+              "measurementId": "4097",
+              "measureTime": 1791947792,
+              "value": 25.7
+            },
+            {
+              "measurementId": "4199",
+              "measureTime": 1791947792,
+              "value": 257
+            },
+            {
+              "measurementId": "4210",
+              "measureTime": 1791947792,
+              "value": 257
+            },
+            {
+              "measurementId": "4211",
+              "measureTime": 1791947792,
+              "value": 257
+            },
+            {
+              "measurementId": "4212",
+              "measureTime": 1791947792,
+              "value": 257
+            },
+            {
+              "measurementId": "5002",
+              "measureTime": 1791947792,
+              "value": [
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000E",
+    "payload": "23010101010101020101010101010101010101010101",
+    "name": "23-two-scans",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "23010101010101020101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "5003",
+              "measureTime": 1791947792,
+              "value": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "3000",
+              "measureTime": 1791947792,
+              "value": 1
+            },
+            {
+              "measurementId": "4097",
+              "measureTime": 1791947792,
+              "value": 25.7
+            },
+            {
+              "measurementId": "4199",
+              "measureTime": 1791947792,
+              "value": 257
+            },
+            {
+              "measurementId": "5001",
+              "measureTime": 1791947792,
+              "value": [
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000E",
+    "payload": "24010101010101020101010101010101010101010101",
+    "name": "24-two-scans",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "24010101010101020101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "5003",
+              "measureTime": 1791947792,
+              "value": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                }
+              ]
+            },
+            {
+              "measurementId": "3000",
+              "measureTime": 1791947792,
+              "value": 1
+            },
+            {
+              "measurementId": "4097",
+              "measureTime": 1791947792,
+              "value": 25.7
+            },
+            {
+              "measurementId": "4199",
+              "measureTime": 1791947792,
+              "value": 257
+            },
+            {
+              "measurementId": "5002",
+              "measureTime": 1791947792,
+              "value": [
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T2000",
+    "payload": "2c0101010101010101010101010101020101010101010101010101010101",
+    "name": "2c-two-scans",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "2c0101010101010101010101010101020101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "4210",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": 257,
+              "type": "AccelerometerX"
+            },
+            {
+              "measurementId": "4211",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": 257,
+              "type": "AccelerometerY"
+            },
+            {
+              "measurementId": "4212",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": 257,
+              "type": "AccelerometerZ"
+            },
+            {
+              "measurementId": "3000",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": "1",
+              "type": "Battery"
+            },
+            {
+              "measurementId": "5001",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": [
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                }
+              ],
+              "type": "Wi-Fi Scan"
+            },
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                },
+                {
+                  "id": 9,
+                  "eventName": "disassembled event"
+                }
+              ],
+              "type": "Event Status"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T2000",
+    "payload": "2d0101010101010101010101010101020101010101010101010101010101",
+    "name": "2d-two-scans",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "2d0101010101010101010101010101020101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "4210",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": 257,
+              "type": "AccelerometerX"
+            },
+            {
+              "measurementId": "4211",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": 257,
+              "type": "AccelerometerY"
+            },
+            {
+              "measurementId": "4212",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": 257,
+              "type": "AccelerometerZ"
+            },
+            {
+              "measurementId": "3000",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": "1",
+              "type": "Battery"
+            },
+            {
+              "measurementId": "5002",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": [
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                }
+              ],
+              "type": "BLE Scan"
+            },
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                },
+                {
+                  "id": 9,
+                  "eventName": "disassembled event"
+                }
+              ],
+              "type": "Event Status"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T2000",
+    "payload": "2f0101010101010101020101010101010101010101010101",
+    "name": "2f-two-scans",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "2f0101010101010101020101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "3000",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": "1",
+              "type": "Battery"
+            },
+            {
+              "measurementId": "5001",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": [
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                }
+              ],
+              "type": "Wi-Fi Scan"
+            },
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                },
+                {
+                  "id": 9,
+                  "eventName": "disassembled event"
+                }
+              ],
+              "type": "Event Status"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T2000",
+    "payload": "300101010101010101020101010101010101010101010101",
+    "name": "30-two-scans",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "300101010101010101020101010101010101010101010101",
+        "messages": [
+          [
+            {
+              "measurementId": "3000",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": "1",
+              "type": "Battery"
+            },
+            {
+              "measurementId": "5002",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": [
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                },
+                {
+                  "mac": "01:01:01:01:01:01",
+                  "rssi": 1
+                }
+              ],
+              "type": "BLE Scan"
+            },
+            {
+              "measurementId": "4200",
+              "timestamp": 16843009000,
+              "motionId": 1,
+              "measurementValue": [
+                {
+                  "id": 1,
+                  "eventName": "Start moving event."
+                },
+                {
+                  "id": 9,
+                  "eventName": "disassembled event"
+                }
+              ],
+              "type": "Event Status"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "0e21000703010203",
+    "name": "gnss-fragment",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "0e21000703010203",
+        "messages": [
+          [
+            {
+              "measurementId": "6152",
+              "groupId": 7,
+              "index": 1,
+              "count": 2,
+              "type": "gnss-ng payload",
+              "measurementValue": "010203"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "WM1110",
+    "payload": "1221000703010203",
+    "name": "gnss-fragment",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "1221000703010203",
+        "messages": [
+          [
+            {
+              "measurementId": "6152",
+              "groupId": 7,
+              "index": 1,
+              "count": 2,
+              "type": "gnss-ng payload",
+              "measurementValue": "010203"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "WM1110",
+    "payload": "170d000001650000000000002a",
+    "name": "custom",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "170d000001650000000000002a",
+        "messages": [
+          [
+            {
+              "measurementId": "4208",
+              "measureTime": 1694498816000,
+              "type": "Custom Event Status",
+              "measurementValue": 1
+            },
+            {
+              "timestamp": 1694498816000,
+              "measurementId": 4165,
+              "type": "Custom Measurement Type",
+              "measurementValue": 42
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "family": "T1000",
+    "payload": "060000400165000000f8b2cc60023863d0ff83000064",
+    "name": "negative-location",
+    "expected": {
+      "data": {
+        "valid": true,
+        "err": 0,
+        "payload": "060000400165000000f8b2cc60023863d0ff83000064",
+        "messages": [
+          [
+            {
+              "measurementId": "4200",
+              "timestamp": 1694498816000,
+              "motionId": 1,
+              "type": "Event Status",
+              "measurementValue": [
+                {
+                  "id": 7,
+                  "eventName": "SOS event."
+                }
+              ]
+            },
+            {
+              "measurementId": "4197",
+              "timestamp": 1694498816000,
+              "motionId": 1,
+              "type": "Longitude",
+              "measurementValue": -122.5
+            },
+            {
+              "measurementId": "4198",
+              "timestamp": 1694498816000,
+              "motionId": 1,
+              "type": "Latitude",
+              "measurementValue": 37.25
+            },
+            {
+              "measurementId": "4097",
+              "timestamp": 1694498816000,
+              "motionId": 1,
+              "type": "Air Temperature",
+              "measurementValue": -12.5
+            },
+            {
+              "measurementId": "4199",
+              "timestamp": 1694498816000,
+              "motionId": 1,
+              "type": "Light",
+              "measurementValue": 0
+            },
+            {
+              "measurementId": "3000",
+              "timestamp": 1694498816000,
+              "motionId": 1,
+              "type": "Battery",
+              "measurementValue": 100
+            }
+          ]
+        ]
+      }
+    }
+  }
+]

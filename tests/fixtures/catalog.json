@@ -1,0 +1,78 @@
+{
+  "chirpstack_commit": "6123d132f013cb1615c26a8b8bccbaa4b14f72cc",
+  "tts_commit": "7a0cb2e307fe434e88a31857906fb76cbdc99620",
+  "chirpstack": {
+    "sensecap-s2120.toml": {
+      "id": "ba6c2e5d-d894-41d1-a5c1-5e8f4a7d3826",
+      "name": "SenseCAP S2120"
+    },
+    "sensecap-s2105.toml": {
+      "id": "5cc452c5-03e6-43af-9525-f0f05767a661",
+      "name": "SenseCAP S2105"
+    },
+    "sensecap-s2107.toml": {
+      "id": "7e5c3173-627a-4c89-abf2-ffb2562c720c",
+      "name": "SenseCAP S2107"
+    },
+    "sensecap-s2106.toml": {
+      "id": "c8e601fc-6015-46f9-be5d-abb0e2863b96",
+      "name": "SenseCAP S2106"
+    },
+    "sensecap-s2103.toml": {
+      "id": "3b46865c-036d-4f0b-8e39-cbb31aa091b4",
+      "name": "SenseCAP S2103"
+    },
+    "sensecap-t2000.toml": {
+      "id": "dc48d269-c13c-4d63-b135-0e3881d543a8",
+      "name": "SenseCAP T2000"
+    },
+    "sensecap-s2102.toml": {
+      "id": "92e11305-8190-41cc-84d0-ddc452cf1889",
+      "name": "SenseCAP S2102"
+    },
+    "sensecap-s2101.toml": {
+      "id": "fc455aa2-01cf-492b-9359-a5d8c9a0e1b3",
+      "name": "SenseCAP S2101"
+    },
+    "sensecap-t1000-b.toml": {
+      "id": "9acef00b-7893-4211-9bca-e03fb9f51327",
+      "name": "SenseCAP T1000-B"
+    },
+    "sensecap-s2104.toml": {
+      "id": "b941a068-8494-4a17-ac21-b0a083787e72",
+      "name": "SenseCAP S2104"
+    },
+    "sensecap-a1101.toml": {
+      "id": "38630583-7d56-4376-9bc4-cd3ee97f460d",
+      "name": "SenseCAP A1101"
+    },
+    "sensecap-s2100.toml": {
+      "id": "b7da14c7-d5de-49a1-8937-5063719bf70e",
+      "name": "SenseCAP S2100"
+    },
+    "sensecap-t1000-a.toml": {
+      "id": "a801aa3f-58d8-4e6f-80b9-34fb1d26910f",
+      "name": "SenseCAP T1000-A"
+    },
+    "sensecap-t1000-ab-mapper.toml": {
+      "id": "2dc535b5-973b-4d18-8944-2ddc1542262e",
+      "name": "SenseCAP T1000-AB-Mapper"
+    }
+  },
+  "tts": [
+    "sensecap-air-th",
+    "sensecap-co2",
+    "sensecap-light",
+    "sensecap-pressure",
+    "sensecap-soil-th",
+    "sensecaps2100-data-logger",
+    "sensecaps2101-temp-humid",
+    "sensecaps2102-light",
+    "sensecaps2103-co2-temp-humid",
+    "sensecaps2104-soil-moisture-temp",
+    "sensecaps2105-soll-moisture-temp-ec",
+    "sensecaps2120-8-in-1",
+    "sensecapt1000-tracker-ab",
+    "sensecapt2000-tracker-abc"
+  ]
+}
