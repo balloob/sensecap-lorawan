@@ -8,8 +8,6 @@ Read SenseCAP sensors through ChirpStack or The Things Stack using
 | S2101 | Air temperature (°C), relative humidity (%) |
 | S2102 | Light intensity (lux) |
 
-Models match the official ChirpStack device-profile templates and The Things Stack
-Device Repository identities. Custom profiles must retain those model identities.
 Raw payloads are decoded locally; a server-side payload formatter is not required.
 
 ## Command-line reader
