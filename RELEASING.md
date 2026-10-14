@@ -6,7 +6,7 @@ This repository uses the same release versioning as `denon-rs232`: keep
 Configure a PyPI Trusted Publisher (or a pending publisher for the first release):
 
 - PyPI project: `sensecap-lorawan`
-- GitHub owner: `balloobbot`
+- GitHub owner: `balloob`
 - Repository: `sensecap-lorawan`
 - Workflow: `publish.yml`
 - Environment: `pypi`
@@ -17,7 +17,7 @@ The workflow builds a wheel and source distribution, uploads the artifacts, and
 publishes them using GitHub OIDC. No PyPI API token is needed.
 
 ```sh
-gh release create 0.1.0 --repo balloobbot/sensecap-lorawan \
+gh release create 0.1.0 --repo balloob/sensecap-lorawan \
   --target main --title 0.1.0 --notes-file /path/to/release-notes.md
 ```
 
