@@ -6,7 +6,7 @@ readme = "README.md"
 license = "Apache-2.0"
 authors = [{ name = "Paulus Schoutsen", email = "balloob@gmail.com" }]
 requires-python = ">=3.12"
-dependencies = ["lorawan-connection>=0.14.0,<0.15"]
+dependencies = ["lorawan-connection>=0.14.0"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Framework :: AsyncIO",
@@ -18,8 +18,8 @@ classifiers = [
 ]
 
 [project.optional-dependencies]
-chirpstack = ["lorawan-connection[chirpstack]>=0.14.0,<0.15"]
-tts = ["lorawan-connection[tts]>=0.14.0,<0.15"]
+chirpstack = ["lorawan-connection[chirpstack]>=0.14.0"]
+tts = ["lorawan-connection[tts]>=0.14.0"]
 
 [project.scripts]
 sensecap-lorawan = "sensecap_lorawan.__main__:main"
